@@ -26,6 +26,7 @@ requirements:
     - dateparser
     - gruut-ipa ~=0.10.0
     - jsonlines ~=1.2.0
+    - networkx
     - num2words >=0.5.10
     - numpy >=1.19.0
     - python >=3.6
