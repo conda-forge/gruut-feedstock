@@ -23,6 +23,7 @@ requirements:
     - python >=3.6
   run:
     - babel ~=2.8.0
+    - dateparser
     - gruut-ipa ~=0.10.0
     - jsonlines ~=1.2.0
     - num2words >=0.5.10
