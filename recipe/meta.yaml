@@ -23,7 +23,7 @@ requirements:
     - python >=3.6
   run:
     - babel ~=2.8.0
-    - dateparser
+    - dateparser ~=1.0.0
     - gruut-ipa ~=0.10.0
     - jsonlines ~=1.2.0
     - networkx
