@@ -10,6 +10,7 @@ source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/gruut-{{ version }}.tar.gz
   sha256: 4e2351f3d128011e1b1570fae4219daacb5790a5211fde703e3a7db9d6e72d10
 
+# Placeholder
 build:
   number: 0
   noarch: python
