@@ -1,5 +1,5 @@
 {% set name = "gruut" %}
-{% set version = "2.0.1" %}
+{% set version = "2.0.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/gruut-{{ version }}.tar.gz
-  sha256: d26652ca33f2ce6fdd942c12e0f9ab66896edd11dc428659f1fd03904fcc852f
+  sha256: 0f8b492764e2859cc29c65c3de2b69f3766eaf33137afa5ba91a80702aa4792a
 
 build:
   number: 0
