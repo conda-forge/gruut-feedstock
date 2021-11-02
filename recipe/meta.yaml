@@ -1,5 +1,5 @@
 {% set name = "gruut" %}
-{% set version = "2.0.2" %}
+{% set version = "2.0.3" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/gruut-{{ version }}.tar.gz
-  sha256: 0f8b492764e2859cc29c65c3de2b69f3766eaf33137afa5ba91a80702aa4792a
+  sha256: 4cfea2ac91447e886eeba6b5d9f34c40abdf23cec9f2d20f66f3666761f603ba
 
 build:
   number: 0
@@ -23,6 +23,7 @@ requirements:
     - python >=3.6
   run:
     - babel >=2.8.0,<3.0.0
+    - dataclasses
     - dateparser ~=1.0.0
     - gruut-ipa ~=0.10.0
     - jsonlines ~=1.2.0
