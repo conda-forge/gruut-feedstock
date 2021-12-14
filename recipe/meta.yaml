@@ -25,7 +25,7 @@ requirements:
     - babel >=2.8.0,<3.0.0
     - dataclasses
     - dateparser ~=1.0.0
-    - gruut-ipa ~=0.10.0
+    - ggruut-ipa ~=0.12.0
     - gruut-lang-en
     - jsonlines ~=1.2.0
     - networkx >=2.5.0,<3.0.0
