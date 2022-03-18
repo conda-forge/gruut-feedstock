@@ -30,8 +30,8 @@ requirements:
     - jsonlines ~=1.2.0
     - networkx >=2.5.0,<3.0.0
     - num2words >=0.5.10,<1.0.0
-    - numpy >=1.19.0
-    - python >=1.19.0,<2.0.0
+    - numpy >=1.19.0,<2.0.0
+    - python >=3.6
     - python-crfsuite ~=0.9.7
 
 test:
