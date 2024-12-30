@@ -21,6 +21,7 @@ requirements:
   host:
     - pip
     - python {{ python_min }}
+    - setuptools
   run:
     - babel >=2.8.0,<3.0.0
     - dataclasses
