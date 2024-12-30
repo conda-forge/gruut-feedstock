@@ -7,11 +7,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/gruut-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/gruut-{{ version }}.tar.gz
   sha256: a49f693266a3a1ab5a6bde77a8f560ef27712b4169b5a6b02e6a1a873342e19e
 
 build:
-  number: 0
+  number: 1
   noarch: python
   entry_points:
     - gruut = gruut.__main__:main
@@ -20,7 +20,8 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python {{ python_min }}
+    - setuptools
   run:
     - babel >=2.8.0,<3.0.0
     - dataclasses
@@ -31,7 +32,7 @@ requirements:
     - networkx >=2.5.0,<3.0.0
     - num2words >=0.5.10,<1.0.0
     - numpy >=1.19.0,<2.0.0
-    - python >=3.6
+    - python >={{ python_min }}
     - python-crfsuite ~=0.9.7
 
 test:
@@ -42,6 +43,7 @@ test:
     - gruut --help
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://github.com/rhasspy/gruut
